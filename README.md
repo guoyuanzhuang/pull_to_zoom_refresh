@@ -1,11 +1,15 @@
 # pull_to_zoom_refresh
+
 the flutter plugin, It realizes the function of enlarging and refreshing the top picture, Support for Android and iOS.
+
 这个插件实现了下拉顶部图片放大和刷新功能，支持Android和iOS。
 
 ## Project presentations
+
 ![](https://github.com/guoyuanzhuang/pull_to_zoom_refresh/blob/master/art/pull_to_zoom_refresh.gif)
 
 ## Sample
+
 ```dart
   PullToZoomRefresh(
     onRefresh: () async{
@@ -20,10 +24,15 @@ the flutter plugin, It realizes the function of enlarging and refreshing the top
     contentWidget: ...,
   ),
 ```
+Here, we can easily expand the pull down offset and pull down state obtained by onPullZoom to achieve our own pull down drawing.
+
+这里通过onPullZoom得到的下拉偏移量dragOffset和下拉状态mode，我们可以轻松扩展，实现我们自己的下拉动画。
 
 
 ## Open source licenses
+
 ```dart
+
 MIT License
 
 Copyright (c) 2019 John
